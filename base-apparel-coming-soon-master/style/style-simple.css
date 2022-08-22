@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;1,500;1,700&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0px;
+}
+
+:root{
+    --color01:  #413a3a;
+    --color02:   #ce9797;
+    --color03:  #f96262;
+}
+
+
+/*      CONF DE GRID        */
+
+.container{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.section01{
+   
+   background-image: url(../images/bg-pattern-desktop.svg);
+   padding-left: 10%;
+   
+}
+
+/* ==========================================*/
+
+/*      CONF DE LOGO        */
+
+.logo{
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.logo img{
+    width: 20%;
+}
+/* ==========================================*/
+
+/*      CONF DE TEXTO        */
+
+#we,h2{
+    font-size: 7em;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+#we{
+    font-weight: 100;
+    color:  var(--color02);
+    
+}
+h2{
+
+   font-weight: normal;
+   font-style: oblique;
+   color: var(--color01);
+   
+}
+
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    color:  var(--color02);
+    width: 500px;
+    line-height: 23px;
+    font-style: oblique;
+    margin-bottom: 55px;
+}
+
+/* ==========================================*/
+
+
+/*      CONF DE INPUT E SUBMIT       */
+ 
+form{
+    position: relative;
+}
+
+
+
+input{
+    width: 550px;
+    height: 50px;
+    border-radius:50px;
+    border: 1px solid var(--color02);
+    padding-left: 30px;
+    font-size: 1.2em;
+    font-style: oblique;
+    font-family: 'Josefin Sans', sans-serif;
+    color:  var(--color02);
+    margin-bottom: 10px;
+    position: absolute;
+ }
+ input::placeholder{
+    color:  var(--color02);
+ }
+ .error{
+    display: none;
+    
+ }
+  .show{
+    display: block;
+    margin-top: 10px;
+    height: 30px;
+    position: absolute;
+    left: 425px;
+ }
+
+
+ button{
+    width: 112px;
+    height: 56px;
+    border-radius: 74px;
+    border: 1px solid var(--color02);
+    box-shadow: 3px 13px 22px #413a3a57;
+    background-image: linear-gradient( 135deg, #f8bfbf, #ee8c8c);
+    color: white;
+    font-size: 1.2em;
+    margin-top: 10px;
+    position: relative;
+    left: 471px;
+    top: -12px;
+
+ }
+ 
+
+/* ==========================================*/
+
+
+/*      CONF DE FOTO-MULHER      */
+picture img{
+    width: 100%;
+    height: 100%;
+}
+
+/* ==========================================*/
+
+
+
+
+
+
+/*      CONF DE MOBILE       */
+.mobile{
+    display: none;
+}
+
+@media screen and (max-width: 375px){
+
+    .mobile{
+        display: block;
+        height: 60px;
+        margin-top: 20px;
+        padding-left: 10px;
+        
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 250px 1fr;
+    }
+
+    .logo{
+        display: none;
+    }
+    
+    #foto{
+        grid-row: 1 / 1;
+        width: 100vw;
+    }
+
+
+  /*      CONF DE FOTO-MULHER      */  
+    picture  img{
+        height: 250px;
+    }
+/* ==========================================*/
+
+
+    /*      CONF DE TEXTO        */
+
+ 
+.txt{
+    margin-top: 20px;
+    /*font-size: 29px;*/
+
+}
+
+#we,h2{
+    
+    font-size: 2.5em;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+#we{
+    padding-left: 62px;
+    font-weight: 100;
+    color:  var(--color02);
+    
+}
+h2{
+    padding-left: 42px;
+   font-weight: normal;
+   font-style: oblique;
+   color: var(--color01);
+   
+}
+
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    color:  var(--color02);
+    width: 300px;
+    line-height: 23px;
+    font-style: oblique;
+    margin-bottom: 15px;
+}
+
+/*      CONF DE INPUT E SUBMIT       */
+input{
+    width: 250px;
+    height: 50px;
+    border-radius:50px;
+    border: 1px solid var(--color02);
+    padding-left: 15px;
+    font-size: 1.2em;
+    font-style: oblique;
+    font-family: 'Josefin Sans', sans-serif;
+    color:  var(--color02);
+    margin-bottom: 10px;
+    position: absolute;
+ }
+ input::placeholder{
+    color:  var(--color02);
+ }
+
+ .error{
+    display: none;
+    
+ }
+  .show{
+    display: block;
+    margin-top: 7px;
+    height: 34px;
+    position: absolute;
+    left: 176px;
+ }
+
+
+ button{
+    width: 58px;
+    height: 56px;
+    border-radius: 74px;
+    border: 1px solid var(--color02);
+    box-shadow: 3px 13px 22px #413a3a57;
+    background-image: linear-gradient( 135deg, #f8bfbf, #ee8c8c);
+    color: white;
+    font-size: 1.2em;
+    margin-top: 10px;
+    position: relative;
+    left: 219px;
+    top: -11px;
+
+ }
+ 
+
+/* ==========================================*/
+ 
+}
+

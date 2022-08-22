@@ -1,33 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Base Apparel coming soon page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style/style-simple.css">
+    <script src="https://kit.fontawesome.com/d5b7547452.js" crossorigin="anonymous"></script>
+   
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
 </head>
 <body>
+    <header class="mobile">
+        <img src="images/logo.svg" alt="">
+    </header>
 
-  We're coming soon
+    <main class="container">
+        <section class="section01">
+           
+            <section class="logo">
+                <img src="images/logo.svg" alt="">
+            </section>
 
-  Hello fellow shoppers! We're currently building our new fashion store. 
-  Add your email below to stay up-to-date with announcements and our launch deals.
-
-  Email Address
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+            <section class="txt">
+                <h1 id="we">We're</h1>
+                <h2>coming <br> soon</h2>
+                <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
+                <form action="">
+                    <input type="email" placeholder="Email Address"  id="email">
+                    <img src="images/icon-error.svg" class="error" id="img">
+                    
+                    <button type="submit" onclick="enviar()" >
+                        <i class="fa-solid fa-angle-right"></i>
+                    </button> 
+                   
+                </form>
+                <div class="res">
+                   
+                </div>
+            </section>
+        </section>
+    <section id="foto">
+            <picture >
+                <source media="(max-width: 375px)" srcset="./images/hero-mobile.jpg" type="image/png" id="foto">
+                <img src="images/hero-desktop.jpg" >
+            </picture>
+    </section>
+    </main> 
+    <script src="js/js.js"></script>
 </body>
 </html>

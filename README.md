@@ -7,7 +7,7 @@ Aqui você verá todos os desafios feitos para aprendizado. Tem vários desafios
 ### Desafio 1
 [Solução de componente de código Qr](https://github.com/Outercrescent3/Site-Desafio-qr-code)
 ### Desafio 2
-
+[Base Apparel Coming Soon](https://outercrescent3.github.io/Frontend_Mentor-Desafios/Desafios/base-apparel-coming-soon-master/index.html)
 ## Visão geral
 
 O intuito desse repositorio é apresentar todos os desafios feitos para o aprendizado do Frontend Mentor.

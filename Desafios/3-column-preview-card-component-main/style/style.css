@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+/*
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+:root{
+    --color-01:#e38826;
+    --color-02:#006970;
+    --color-03:#004241;
+
+    --color-paragraphs: #ffffffbf; /* paragraphs*/
+    --color-advances:#f2f2f2; /* background, headings, buttons  */
+
+}
+
+
+
+
+
+/**** CONFIGURAÇÃO DOS  CARDS  ***/
+
+#row{
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+/* CONFIGURAÇÕES GENERICAS */
+
+#sedan, #suv, #lx{
+
+padding: 50px;
+
+}
+
+div h5{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-bottom: 25px;
+
+}
+
+div p{
+    font-size: 15px;
+    line-height: 25px;
+    width: 200px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+
+#sedan img, #suv img, #lx img{
+margin-bottom: 25px;
+}
+
+/* ======================== */
+
+/* CONFIGURAÇÕES ESPECIFICAS */
+
+#sedan{
+background-color: var(--color-01);
+border-radius: 10px 0px 0px 10px;
+}
+
+#suv{
+    background-color: var(--color-02);
+}
+
+#lx{
+    border-radius: 0px 10px 10px 0px;
+    background-color: var(--color-03);
+}
+
+/* ======================== */

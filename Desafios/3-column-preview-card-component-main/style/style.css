@@ -15,6 +15,7 @@ font-family: 'Lexend Deca', sans-serif;
     --color-01:#e38826;
     --color-02:#006970;
     --color-03:#004241;
+    --color-04:white;
 
     --color-paragraphs: #ffffffbf; /* paragraphs*/
     --color-advances:#f2f2f2; /* background, headings, buttons  */
@@ -43,7 +44,7 @@ padding: 50px;
 div h5{
     font-family: 'Big Shoulders Display', cursive;
     font-weight: 700;
-    color: white;
+    color: var(--color-04);
     text-transform: uppercase;
     font-size: 30px;
     padding-bottom: 25px;
@@ -54,15 +55,26 @@ div p{
     font-size: 15px;
     line-height: 25px;
     width: 200px;
-    color: white;
+    color: var(--color-04);
     margin-bottom: 50px;
 }
 
 
 #sedan img, #suv img, #lx img{
 margin-bottom: 25px;
-}
 
+
+}
+/* ===CONFUGURAÇOES GENERICAS DE BOTÕES ======= */
+div button{
+    background-color: var(--color-04);
+    font-weight: bolder;
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: none;
+    transition: background-color 0.5s;
+  
+}
 /* ======================== */
 
 /* CONFIGURAÇÕES ESPECIFICAS */
@@ -71,9 +83,27 @@ margin-bottom: 25px;
 background-color: var(--color-01);
 border-radius: 10px 0px 0px 10px;
 }
+#sedan button{
+    color: var(--color-01);
+}
+#sedan button:hover{
+    background-color: var(--color-01);
+    color: var(--color-04);
+   border: 1px solid var(--color-04);
+}
 
 #suv{
     background-color: var(--color-02);
+}
+#suv button{
+    color: var(--color-02);
+    
+}
+
+#suv button:hover{
+    background-color: var(--color-02);
+    color: var(--color-04);
+   border: 1px solid var(--color-04);
 }
 
 #lx{
@@ -81,4 +111,19 @@ border-radius: 10px 0px 0px 10px;
     background-color: var(--color-03);
 }
 
+#lx button{
+    color: var(--color-03);
+}
+
+#lx button:hover{
+    background-color: var(--color-03);
+    color: var(--color-04);
+   border: 1px solid var(--color-04);
+}
+
 /* ======================== */
+
+
+
+
+

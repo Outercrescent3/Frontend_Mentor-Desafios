@@ -9,6 +9,7 @@ Aqui você verá todos os desafios feitos para aprendizado. Tem vários desafios
 ### Desafio 2
 [Base Apparel Coming Soon](https://outercrescent3.github.io/Frontend_Mentor-Desafios/Desafios/base-apparel-coming-soon-master/index.html)
 
+
 ### Desafio 3
 [3-column preview card component]()
 

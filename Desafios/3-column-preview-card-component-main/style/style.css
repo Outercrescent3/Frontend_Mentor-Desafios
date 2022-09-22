@@ -32,6 +32,16 @@ font-family: 'Lexend Deca', sans-serif;
     margin-top: 20%;
     margin-left: 10%;
 }
+@media screen and (max-width: 600px){
+    #row{
+        margin-top: 15%;
+        margin-left: 0%;
+        margin-right: 1%;
+    }
+    #sedan{
+        border-radius: 10px;
+        }
+}
 
 /* CONFIGURAÇÕES GENERICAS */
 
